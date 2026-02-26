@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card list</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <figure class="alzaBackground">
+            <a href="#">
+                <figure class="alzaBackground2 toCenter radius fitContent">
+                    <img src="./images/material/stáhnout.webp" alt="Sluchátka Apple AirPods 4">
+                    <div class="columnAlign">
+                        <p>4,7</p>
+                        <p class="lightColor">1 744×</p>
+                    </div>
+                    <p class="alzaText">Apple AirPods 4</p>
+                    <figure class="red radius">
+                        <section class="yellow radiusTop toCenter">
+                            <p class="stick padding stick1"><strong>ZLEVNĚNO -3%</strong></p>
+                        </section>
+                        <div class="red toCenter">
+                            <p class="bigger stick2 padding">3 190,-</p>
+                            <p class="stick2">3 290,-</p>
+                        </div>
+                    </figure>
+                    <div class="columnAlign alzaBackground2 radius borderColor">
+                        <p class="icon alzaButton bigger">&#xf1e8</p>
+                        <p class="alzaButton">Do košíku</p>
+                    </div>
+                </figure>
+            </a>
+        </figure>
+        <figure>
+            <a href="#">
+                <img src="./css/ikony/74c63bf3f9716b6363dd92aebf54b907-v1.svg" alt=""><!--Maya-->
+                <span class="icon">&#xf146</span><!--Unity-->
+                <span class="icon">&#xf145</span><!--UE-->
+                <span class="icon">&#xf1e4</span><!--Košík-->
+                <span class="icon">&#xf4ac</span><!--Uložit-->
+                <span class="icon">&#xf194</span><!--Hodnocení-->
+                <span class="icon">&#xf468</span><!--Vlastněno-->
+            </a>
+        </figure>
+        <figure class="ratio firContent figure1">
+            <div>
+                <img src="./images/material/dragon knight.jpg" alt="Dragon Knight Boss Pack">
+            </div>
+            <div>
+                <h1>Dragon Knight</h1>
+                <p>Naked Singularity Studio - Fantasy</p>
+                <p>From <strong>Kč 1,616.74</strong></p>
+            </div>
+        </figure>
+    </main>
+</body>
+</html>
