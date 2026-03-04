@@ -1,0 +1,9 @@
+table{
+    --background:navy;
+    --black:#fff;
+    background-color: var(--background);
+}
+table *{
+    border: solid 1px var(--black);
+    color: var(--black);
+}
